@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ccc;
+}
+
+.wrapper {
+  width: 800px;
+  height: 1050px;
+  margin: 10px auto;
+}
+
+.header {
+  width: 800px;
+  height: 240px;
+  background: #282880;
+}
+
+#top-header {
+  height: 205px;
+  width: 800px;
+
+}
+
+#logo-info {
+  width: 30%;
+  height: 100%;
+  float: left;
+}
+
+#logo-info img {
+  border-radius: 50%;
+  margin-left: 20%;
+  margin-top: 12%;
+}
+
+img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+#banner-info {
+  width: 70%;
+  height: 100%;
+  float: right;
+  position: relative;
+}
+
+#banner-info ul {
+  list-style: none;
+  color: #fff;
+  margin-top: 2%;
+  font-size: 18px;
+}
+
+#banner-info p {
+  margin-bottom: 1%;
+}
+
+#banner-info p:hover {
+  color: #ccc;
+  font-size: 20px;
+}
+
+#bottom-header {
+  height: 35px;
+  width: 800px;
+  position: absolute;
+  top: 200px;
+}
+
+.container {
+  width: 800px;
+  height: 750px;
+  background: #2e2e98;
+}
+
+.contain-class {
+  width: 90%;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 18px;
+}
+
+.contain-class p {
+  padding: 4px;
+}
+
+.contain-class:hover {
+  font-size: 20px;
+  color: #ccc;
+}
+.contain-class ul {
+  width: 100%;
+  margin-top: -25px;
+}
+.contain-class ul li {
+  height: 150px;
+}
+.contain-class img {
+  float: left;
+  margin-left: 4%;
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+.container ul{
+  list-style: none;
+}
+
+.container ul li:first-child {
+  height: 150px;
+  padding-top: 30px;
+}
+
+.container ul li:first-child p {
+  padding: 4px;
+}
+
+.container ul li:nth-child(2) {
+  /* height: 210px; */
+  padding-top: 30px;
+
+}
+
+.container ul li:last-child {
+  height: 225px;
+  padding-top: 30px;
+}
+
+
+.footer {
+  width: 800px;
+  height: 60px;
+  background: #282880;
+}
+
+.footer-list {
+  width: 30%;
+  height: 60px;
+}
+
+.footer p {
+  color: #fff;
+  font-size: 18px;
+  padding: 2px;
+  margin-left: 40px;
+}
+.footer p:hover {
+  font-size: 20px;
+}
