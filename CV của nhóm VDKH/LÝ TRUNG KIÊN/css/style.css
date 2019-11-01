@@ -1,0 +1,43 @@
+body {
+    font-family: Tahoma;
+    font-size: 13px;
+    width: 60%;
+    margin: 0px auto;
+}
+
+#menu_top {
+    background: darkslategray;
+    width: 100%;
+    min-height: 200px;
+    color: white;
+}
+
+#banner {
+    background: white;
+    width: 100%;
+    min-height: 3px;
+}
+
+#menu #left {
+    background: #ffffff;
+    width: 50%;
+    float: left;
+    min-height:450px;
+}
+
+#menu #right {
+    background: darkslategray;
+    width: 40%;
+    float: right;
+    min-height: 450px;
+    color: white;
+}
+
+#footer {
+    background: white;
+    width: 100%;
+    min-height: 3px;
+    clear: left;
+}
+
+
