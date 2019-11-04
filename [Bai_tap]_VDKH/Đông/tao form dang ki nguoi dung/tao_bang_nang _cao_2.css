@@ -1,0 +1,11 @@
+table{
+    border: 1px solid;
+    width: 100%;
+
+}
+#odd:nth-child(even){
+    background: black;
+}
+#even:nth-child(odd){
+    background: white;
+}

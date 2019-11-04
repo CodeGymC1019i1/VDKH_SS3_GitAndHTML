@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thực hành javascript bài 1</title>
+</head>
+<body>
+<button onclick="showMessage();">Click me</button>
+<script language="javascript">
+function showMessage() {
+    alert("xin chào!");
+}
+</script>
+
+<div id="messageDiv"></div>
+<button onclick="messageDiv();">Click me</button>
+<script language="javascript">
+function messageDiv() {
+    document.getElementById("messageDiv").innerHTML = "xin chào!";
+}
+</script>
+
+
+<button onclick="messageWrite();">Click me</button>
+<script language="javascript">
+function messageWrite() {
+    document.write("Xin chào !");
+}
+</script>
+
+<button onclick="showConsole();">Click me</button>
+<script language="javascript">
+function showConsole(){
+    console.log("xin chào!");
+}
+</script>
+</body>
+</html>
