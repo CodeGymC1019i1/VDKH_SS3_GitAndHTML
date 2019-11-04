@@ -11,3 +11,9 @@ th{
 td{
     text-align: center;
 }
+div{
+    padding: 5px;
+}
+div:hover{
+    background-color: red ;
+}
