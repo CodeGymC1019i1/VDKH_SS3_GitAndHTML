@@ -1,0 +1,26 @@
+/* CSS THOI KHOA BIEU 01 */
+#calender {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  text-align: center;
+  height: 40px;
+}
+
+tr, td {
+  border: 1px solid #ccc;
+  width: 150px;
+}
+
+tr:nth-child(1) {
+  background: #feba11;
+}
+
+/* CSS THOI KHOA BIEU 02 */
+.calender {
+  border-collapse: collapse;
+  width: 800px;
+}
+
+.calender td {
+  width: 300px;
+}
