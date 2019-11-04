@@ -1,0 +1,19 @@
+tr, td{
+    width: 50px;
+    height: 30px;
+}
+tr:nth-child(odd){
+    background: #E6E6E6;
+}
+th{
+    text-align: left;
+}
+td{
+    text-align: center;
+}
+div{
+    padding: 5px;
+}
+div:hover{
+    background-color: red ;
+}
