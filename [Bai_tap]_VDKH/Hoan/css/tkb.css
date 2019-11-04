@@ -1,0 +1,21 @@
+table, tr, th, td {
+    border: 1px solid #ccc;
+    /* border-collapse: collapse; */
+    width: 500px;
+}
+
+tr {
+  background: red;
+}
+
+caption table {
+  border-style: hidden;
+}
+
+caption table h2 {
+  text-align: center;
+}
+
+th {
+    background: yellow;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tong quan ve Javascript..</title>
+
+  </head>
+  <body>
+    <div id="demo" onclick="myFunction();">
+      PARAGRAP OLD...
+    </div>
+
+    <hr>
+    <button onclick="alert('inline script');">Click here</button>
+
+    <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "PARAGRAP NEW..";
+      };
+    </script>
+
+    <hr>
+    <p id="changeContent">Change content html</p>
+    <button onclick="changeContent();">Change Content</button>
+
+
+    <hr>
+    <img src="http://thuthuatphanmem.vn/uploads/2017/11/05/hinh-nen-4k-dep-1_124942.jpg" width="400" id="picture"  onclick="changeImage();">
+    <script src="./js/tongquan.js"></script>
+  </body>
+</html>
