@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[bai tap] tao form co ban</title>
+    <link rel="stylesheet" href="tao_form_co_ban.css">
+    <link rel="stylesheet" href="form co ban.css">
+</head>
+<body>
+<form>
+    <table id="form_so_thich">
+        <caption><h3>Sở thích của bạn</h3></caption>
+        <tr>
+            <td class="label">Họ và tên</td>
+            <td><input type="text" name="yourname"></td>
+        </tr>
+        <tr>
+            <td class="label">Email</td>
+            <td><input type="email" name="email"></td>
+        </tr>
+        <tr>
+            <td class="label">Sở thích</td>
+            <td>
+                <table id="checkbox_so_thich">
+                    <tr>
+                        <td><input type="checkbox" name="hobby" class="hobby">Thể thao</td>
+                        <td><input type="checkbox" name="hobby" class="hobby">Âm nhạc</td>
+                        <td><input type="checkbox" name="hobby" class="hobby">Đọc sách</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="hobby" class="hobby">Lướt web</td>
+                        <td><input type="checkbox" name="hobby" class="hobby">Chơi game</td>
+                        <td><input type="checkbox" name="hobby" class="hobby">Điện ảnh</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><input type="checkbox" name="hobby" class="hobby">Du lịch</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" name="Gui thong tin" value="Gửi thông tin">
+                <input type="reset" name="reset" value="nhập lại">
+            </td>
+        </tr>
+    </table>
+</form>
+<form>
+    <table width="100%">
+        <caption><h3>Đăng kí học viên</h3></caption>
+        <tr>
+            <td>Họ và tên</td>
+            <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <td>Ngày sinh</td>
+            <td><input type="date" name="birth"></td>
+        </tr>
+        <tr>
+            <td>Giới tính</td>
+            <td><input type="radio" name="gender"> Nam <input type="radio" name="gender"> Nữ<td>
+        </tr>
+        <tr>
+            <td>Địa chỉ</td>
+            <td><textarea rows="4" cols="40" name="address"></textarea></td>
+        </tr>
+        <tr>
+            <td>Lớp</td>
+            <td><select name="class">
+                <option value="">--Chọn lớp--</option>
+                <option value="">1</option>
+                <option value="">2</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" name="email"></td>
+        </tr>
+        <tr>
+            <td>Điện thoại</td>
+            <td><input type="tel" name="phoneNumber"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" name="Regiter" value="Đăng kí">
+                <input type="reset" name="reset" value="nhập lại">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

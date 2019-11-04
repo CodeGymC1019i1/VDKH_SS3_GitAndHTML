@@ -1,0 +1,23 @@
+form{
+    border: 3px solid aqua;
+    width: 40%;
+}
+#form_so_thich{
+    width: 100%;
+}
+
+caption{
+    background: orangered;
+    color: white;
+}
+.label{
+    text-align: right;
+}
+.hobby{
+    color: orangered;
+    float: left;
+}
+#checkbox_so_thich{
+    width: 100%;
+    color: orangered;
+}
