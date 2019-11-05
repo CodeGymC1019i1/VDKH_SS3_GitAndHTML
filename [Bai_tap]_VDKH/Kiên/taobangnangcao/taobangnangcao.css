@@ -1,0 +1,18 @@
+.white {
+    background: white;
+    width: 75px;
+    height: 75px;
+    color: black;
+}
+
+.black {
+    background: black;
+    width: 75px;
+    height: 75px;
+    color: white;
+}
+
+.stt {
+    text-align: center;
+    font-size: 20px;
+}
